@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Well-liked Cities</title>
-    <h6>Visit cities with Shiva Ram Reddy Marthala</h6>
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   
@@ -14,50 +14,68 @@
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </head>
 <body>  
-    
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="cities.html">A Few Cities</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="basic.html">Basic</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="advanced.html">Advanced</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </nav>
 
+        <h6>Visit cities with Shiva Ram Reddy Marthala</h6>
 
-    <div class="container" style="color:black">
-        <div class="row">
-            <div class="col-sm-2">M</div>
-            <div class="col-sm-2">A</div>
-            <div class="col-sm-2">R</div>
-            <div class="col-sm-2">T</div>
-            <div class="col-sm-2">H</div>
-            <div class="col-sm-2">A</div>
+        <div class="container" style="color:black">
+            <div class="row">
+                <div class="col-sm-2">M</div>
+                <div class="col-sm-2">A</div>
+                <div class="col-sm-2">R</div>
+                <div class="col-sm-2">T</div>
+                <div class="col-sm-2">H</div>
+                <div class="col-sm-2">A</div>
             
 
-        </div>
-        <div class="row">
-            <div class="col-md" style="background-color:chartreuse">Melbourne</div>
-            <div class="col-md" style="background-color:aquamarine">Amsterdam</div>
-            <div class="col-md" style="background-color:blueviolet">Rome</div>
-            <div class="col-md" style="background-color:cadetblue">Tokyo</div>
-            <div class="col-md" style="background-color:cornflowerblue">Hyderabad</div>
-            <div class="col-md" style="background-color:coral">Austin</div>
+            </div>
+            <div class="row">
+                <div class="col-md" style="background-color:chartreuse">Melbourne</div>
+                <div class="col-md" style="background-color:aquamarine">Amsterdam</div>
+                <div class="col-md" style="background-color:blueviolet">Rome</div>
+                <div class="col-md" style="background-color:cadetblue">Tokyo</div>
+                <div class="col-md" style="background-color:cornflowerblue">Hyderabad</div>
+                <div class="col-md" style="background-color:coral">Austin</div>
            
 
+            </div>
         </div>
-    </div>
-    <p>As you reduce the size slowly, the city names (in the second row) will break first because we used the col-md class, 
-        which is designed for medium-sized screens and above. 
-        These divs will stack vertically when the screen width is smaller than the specified breakpoint (usually around 768px).
-         The letters in the first row (with col-sm-2) will continue to adjust their size to fit the screen width 
-         until the smallest breakpoint for small screens is reached.</p>
+        <p>As you reduce the size slowly, the city names (in the second row) will break first because we used the col-md class, 
+            which is designed for medium-sized screens and above. 
+            These divs will stack vertically when the screen width is smaller than the specified breakpoint (usually around 768px).
+            The letters in the first row (with col-sm-2) will continue to adjust their size to fit the screen width 
+            until the smallest breakpoint for small screens is reached.</p>
          <hr>
 
-         <div class="image-container">
+        <div class="image-container">
             <h3 class="display">Images of Cities</h3>
             <img src="melbourne.jpg" class = "img-fluid" alt="Melbourne" width="300" height="300">
             <img src="amsterdam.jpg" class = "img-fluid" alt="Amsterdam" width="300" height="300">
             <img src="rome.jpg" class = "img-fluid" alt="Rome" width="300" height="300">
-         </div>
-         <div class="image-container">
+        </div>
+        <div class="image-container">
             <h3 class="display">Thumbnails of the Cities</h3>
             <img src="melbourne.jpg" class="img-thumbnail" alt="Melbourne" width="300" height="300">
             <img src="amsterdam.jpg" class="img-thumbnail" alt="Amsterdam" width="300" height="300">
             <img src="rome.jpg" class="img-thumbnail" alt="Rome" width="300" height="300">
-         </div>
+        </div>
 
     
         <hr>
@@ -117,43 +135,45 @@
 
             <br>
 
-    <label><h5>BUTTONS</h5></label>
-    <br>
-    <button class="btn">M</button>
-    <button class="btn">A</button>
-    <button class="btn">R</button>
-    <button class="btn">T</button>
-    <button class="btn">H</button>
-    <button class="btn">A</button>
+            <label><h5>BUTTONS</h5></label>
+            <br>
+            <button class="btn">M</button>
+            <button class="btn">A</button>
+            <button class="btn">R</button>
+            <button class="btn">T</button>
+            <button class="btn">H</button>
+            <button class="btn">A</button>
 
     
-    <nav class="navbar"></nav>
-    <h4 class="display-4">Button Groups</h4>
-    </nav>
-    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-    <div class="btn-group me-3" role="group" aria-label="First group">
-        <button type="button" class="btn btn-success">M</button>
-        <button type="button" class="btn btn-success">A</button>
-        <button type="button" class="btn btn-success">R</button>
-    </div>
+            
+            <h4 class="display-4">Button Groups</h4>
 
-    <div class="btn-group me-3" role="group" aria-label="Second group">
-        <button type="button" class="btn btn-warning">T</button>
-        <button type="button" class="btn btn-warning">H</button>
-    </div>
+            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group me-3" role="group" aria-label="First group">
+
+                <button type="button" class="btn btn-success">M</button>
+                <button type="button" class="btn btn-success">A</button>
+                <button type="button" class="btn btn-success">R</button>
+            </div>
+
+            <div class="btn-group me-3" role="group" aria-label="Second group">
+                <button type="button" class="btn btn-warning">T</button>
+                <button type="button" class="btn btn-warning">H</button>
+            </div>
       
-    <div class="btn-group me-3" role="group" aria-label="Third group">
-        <button type="button" class="btn btn-danger">A</button>
-    </div>
-    </div>
-    <br>
-    <hr>
-    <h2 class="display">Dropdown</h2>
-    <div class="dropdown" Style="position: relative; display: inline-block;">
-        <button type="button" class="btn btn-primary dropdown-toggle"  data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown Button
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <div class="btn-group me-3" role="group" aria-label="Third group">
+                <button type="button" class="btn btn-danger">A</button>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <h2 class="display">Dropdown</h2>
+            <div class="dropdown" Style="position: relative; display: inline-block;">
+
+                <button type="button" class="btn btn-primary dropdown-toggle"  data-bs-toggle="dropdown" aria-expanded="false">
+                 Dropdown Button
+                </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <ul>
 
                 <li><a class="dropdown-item" href="basic.html">Basic Page</a></li>
@@ -162,13 +182,52 @@
         </div>
     </div>
     <br>
+    <hr>
 
-    
+    <form>
+        <div class="form-group mb-3">
+          <label for="exampleInputEmail" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="enter your email">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="form-group mb-3">
+          <label for="exampleInputCity1" class="form-label">City</label>
+          <input type="text" class="form-control" id="exampleInputCity1" placeholder="Enter your city">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Sign up for newsletter?</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <br><br>
 
-            
-  
-
-
+      <h3 class="display">BONUS</h3>
+      <div class="card-group">
+        <div class="card">
+          <img class="card-img-top" src="melbourne.jpg" class="img-fluid" alt="Melbourne">
+          <div class="card-body"><h2>Melbourne</h2>
+          <p class="card-text">Melbourne, The area of Melbourne has been home to Aboriginal Victorians for over 40,000 years and serves as an important meeting place for local Kulin nation clans.[16][17] Of the five peoples of the Kulin nation, the traditional custodians of the land encompassing Melbourne are the Boonwurrung, Wathaurong and the Wurundjeri peoples. A short-lived penal settlement was built at Port Phillip, then part of the British colony of New South Wales, in 1803, but it was not until 1835, with the arrival of free settlers from Van Diemen's Land (modern-day Tasmania)</p>
+        </p>
+        <a href="https://en.wikipedia.org/wiki/Melbourne" class="btn btn-primary">Go somewhere</a>
+        </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="amsterdam.jpg" class="img-fluid" alt="Amsterdam">
+          <div class="card-body"><h2>Amsterdam</h2>
+          <p class="card-text">Amsterdam (/ˈæmstərdæm/ AM-stər-dam, UK also /ˌæmstərˈdæm/ AM-stər-DAM,[9][10] Dutch: [ˌɑmstərˈdɑm] ⓘ; literally, "The Dam on the River Amstel") is the capital and most populous city of the Netherlands, with The Hague being the seat of government. It has a population of 921,402[11] within the city proper, 1,457,018 in the urban area[6] and 2,480,394 in the metropolitan area.[12] Located in the Dutch province of North Holland,[13][14] Amsterdam is colloquially referred to as the "Venice of the North", for its large number of canals, now designated a UNESCO World Heritage Site.</p>
+        </p>
+        <a href="https://en.wikipedia.org/wiki/Amsterdam" class="btn btn-primary">Go somewhere</a>
+        </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="rome.jpg" class="img-fluid" alt="Rome">
+          <div class="card-body"><h2>Rome</h2>
+          <p class="card-text">Rome (Italian and Latin: Roma [ˈroːma] ⓘ) is the capital city of Italy. It is also the capital of the Lazio region, the centre of the Metropolitan City of Rome, and a special comune named Comune di Roma Capitale. With 2,860,009 residents in 1,285 km2 (496.1 sq mi),[2] Rome is the country's most populated comune and the third most populous city in the European Union by population within city limits. The Metropolitan City of Rome, with a population of 4,355,725 residents, is the most populous metropolitan city in Italy.[3] Its metropolitan area is the third-most populous within Italy.</p>
+          <a href="https://en.wikipedia.org/wiki/Rome" class="btn btn-primary">Go somewhere</a>
+        </div>
+        </div>
+      </div>
         
 </body>
 </html>
